@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        echo 'this is a webhook '
+        echo 'this is a webhook for this repo'
       }
     }
     
