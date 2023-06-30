@@ -19,10 +19,5 @@ pipeline {
         sh 'testing'  
       }
     }
-    stage('install') {
-      steps {
-        sh 'installing'  
-      }
-    }
   }
 }
