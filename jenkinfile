@@ -4,19 +4,19 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        sh 'this is a webhook
+        echo 'this is a webhook
       }
     }
     
     stage('Build') {
       steps {
-        sh 'building'  
+        echo 'building'  
       }
     }
     
     stage('Test') {
       steps {
-        sh 'testing'  
+        echoh 'testing'  
       }
     }
   }
