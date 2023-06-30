@@ -1,0 +1,28 @@
+pipeline {
+  agent any
+  
+  stages {
+    stage('hello') {
+      steps {
+        sh 'this is a webhook
+      }
+    }
+    
+    stage('Build') {
+      steps {
+        sh 'building'  
+      }
+    }
+    
+    stage('Test') {
+      steps {
+        sh 'testing'  
+      }
+    }
+    stage('install') {
+      steps {
+        sh 'installing'  
+      }
+    }
+  }
+}
